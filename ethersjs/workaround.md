@@ -10,6 +10,6 @@ const provider = await ethers.getDefaultProvider(network, {
         etherscan: <ETHERSCAN_API_KEY>,
         infura:  {projectId: <INFURA_PROJECT_ID>, projectSecret: <INFURA_PROJECT_SECRET> },
         alchemy: <ALCHEMY_API>,
-        **quorum: 1**
+        quorum:1
       });
 ```
