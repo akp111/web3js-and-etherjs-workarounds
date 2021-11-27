@@ -15,7 +15,7 @@ const provider = await ethers.getDefaultProvider(network, {
 ```
 
 ## Solution 2 
-Initialising with one provider
+Initialising with one provider. Though, if the node goes down due to some reason, your application may not work properly.
 ```JS
 const provider = await ethers.getDefaultProvider(network, {
         infura:  {projectId: <INFURA_PROJECT_ID>, projectSecret: <INFURA_PROJECT_SECRET> },
